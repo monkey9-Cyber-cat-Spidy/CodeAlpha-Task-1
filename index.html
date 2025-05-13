@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Gallery</h1>
+        
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="city">City</button>
+            <button class="filter-btn" data-filter="abstract">Abstract</button>
+        </div>
+        
+        <div class="gallery">
+            <div class="gallery-item" data-category="nature">
+                <img src="/placeholder.svg?height=600&width=800" alt="Nature Image 1">
+                <div class="overlay">
+                    <span>Nature 1</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="city">
+                <img src="/placeholder.svg?height=600&width=800" alt="City Image 1">
+                <div class="overlay">
+                    <span>City 1</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="abstract">
+                <img src="/placeholder.svg?height=600&width=800" alt="Abstract Image 1">
+                <div class="overlay">
+                    <span>Abstract 1</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="/placeholder.svg?height=600&width=800" alt="Nature Image 2">
+                <div class="overlay">
+                    <span>Nature 2</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="city">
+                <img src="/placeholder.svg?height=600&width=800" alt="City Image 2">
+                <div class="overlay">
+                    <span>City 2</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="abstract">
+                <img src="/placeholder.svg?height=600&width=800" alt="Abstract Image 2">
+                <div class="overlay">
+                    <span>Abstract 2</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="/placeholder.svg?height=600&width=800" alt="Nature Image 3">
+                <div class="overlay">
+                    <span>Nature 3</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="city">
+                <img src="/placeholder.svg?height=600&width=800" alt="City Image 3">
+                <div class="overlay">
+                    <span>City 3</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="lightbox">
+        <span class="close-btn">&times;</span>
+        <div class="lightbox-content">
+            <img src="/placeholder.svg" alt="Lightbox Image" id="lightbox-img">
+            <div class="caption"></div>
+        </div>
+        <span class="prev-btn"><i class="fas fa-chevron-left"></i></span>
+        <span class="next-btn"><i class="fas fa-chevron-right"></i></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
