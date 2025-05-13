@@ -31,7 +31,7 @@ A modern, responsive image gallery built with HTML, CSS, and JavaScript that all
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/image-gallery.git
+   git clone https://github.com/monkey9-Cyber-cat-Spidy/CodeAlpha-Task-3.git
    cd image-gallery
    ```
 
